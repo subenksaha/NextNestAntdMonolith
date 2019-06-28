@@ -15,6 +15,6 @@ async function bootstrap() {
   const renderer = server.get(RenderModule);
   renderer.register(server, app);
 
-  await server.listen(process.env.PORT || 3000);
+  await server.listen(80);
 }
 bootstrap();
